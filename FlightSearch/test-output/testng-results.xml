@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-27T18:35:11 IST" name="Default suite" finished-at="2024-10-27T18:36:27 IST" duration-ms="75499">
+    <groups>
+    </groups>
+    <test started-at="2024-10-27T18:35:11 IST" name="Default test" finished-at="2024-10-27T18:36:27 IST" duration-ms="75499">
+      <class name="com.Test.FlightSearchTest">
+        <test-method is-config="true" signature="initialisingDriver()[pri:0, instance:com.Test.FlightSearchTest@31c88ec8]" started-at="2024-10-27T18:35:11 IST" name="initialisingDriver" finished-at="2024-10-27T18:35:14 IST" duration-ms="2377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialisingDriver -->
+        <test-method signature="testEmptyFieldsValidation()[pri:0, instance:com.Test.FlightSearchTest@31c88ec8]" started-at="2024-10-27T18:35:14 IST" name="testEmptyFieldsValidation" finished-at="2024-10-27T18:35:21 IST" duration-ms="7511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEmptyFieldsValidation -->
+        <test-method signature="testFlightSearchDELToBOM(java.lang.String)[pri:0, instance:com.Test.FlightSearchTest@31c88ec8]" started-at="2024-10-27T18:35:21 IST" name="testFlightSearchDELToBOM" data-provider="travelDates" finished-at="2024-10-27T18:35:44 IST" duration-ms="22727" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[today]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFlightSearchDELToBOM -->
+        <test-method signature="testFlightSearchDELToBOM(java.lang.String)[pri:0, instance:com.Test.FlightSearchTest@31c88ec8]" started-at="2024-10-27T18:35:44 IST" name="testFlightSearchDELToBOM" data-provider="travelDates" finished-at="2024-10-27T18:36:07 IST" duration-ms="22750" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tomorrow]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFlightSearchDELToBOM -->
+        <test-method signature="testSameOriginAndDestination()[pri:0, instance:com.Test.FlightSearchTest@31c88ec8]" started-at="2024-10-27T18:36:07 IST" name="testSameOriginAndDestination" finished-at="2024-10-27T18:36:26 IST" duration-ms="19670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSameOriginAndDestination -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Test.FlightSearchTest@31c88ec8]" started-at="2024-10-27T18:36:26 IST" name="tearDown" finished-at="2024-10-27T18:36:27 IST" duration-ms="430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.Test.FlightSearchTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
